@@ -11,7 +11,7 @@ def approach1(the_list):
 
     return 0
     
-def find_repeat(the_list):
+def find_repeat1(the_list):
 
     # Find a number that appears more than once
     
@@ -23,6 +23,16 @@ def find_repeat(the_list):
     return 0
 
 
+def find_repeat(numbers_list):
+	#O(n) and O(1) space
+    # Find the number that appears twice
+    for i in range(0, len(numbers_list)):
+        if numbers_list[abs(numbers_list[i])] >= 0:
+            numbers_list[abs(numbers_list[i])] = - numbers_list[abs(numbers_list[i])]
+        else:
+            return abs(numbers_list[i])
+
+    return 0
 
 
 # Tests
