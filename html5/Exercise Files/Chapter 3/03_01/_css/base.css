@@ -1,0 +1,59 @@
+a,
+a:link {
+    outline: none;
+}
+#container h1 {
+    font-weight: 100;
+    font-size: 72px;
+    margin: 20px 0;
+}
+#container {
+    width: 580px;
+    text-align: center;
+    margin: 20px auto;
+}
+#container input[type="text"] {
+    height: 30px;
+    width: 350px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+#container input[type="submit"] {
+    height: 56px;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #ccc;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+	width:  auto;
+	background: none;
+}
+#container ul {
+    margin: 15px auto 0;
+    padding: 0;
+    width: 545px;
+}
+#container ul li {
+    list-style-type: none;
+    font-size: 24px;
+    cursor: move;
+    background-color: #efefef;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+}
+#container ul li span {
+    cursor: text;
+}
+#container ul li a,
+#container ul li a:link {
+    float: right;
+    display: none;
+    text-decoration: none;
+    color: #f03;
+}
+#container ul li a:hover {
+    text-decoration: underline;
+}

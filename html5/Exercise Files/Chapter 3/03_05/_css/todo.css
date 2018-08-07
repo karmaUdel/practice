@@ -1,0 +1,56 @@
+#container input[type="button"] {
+	height: 56px;
+	padding: 10px;
+	border: 1px solid #333;
+	background-color: #ccc;
+	font-size: 24px;
+	cursor: pointer;
+	outline: none;
+	width: auto;
+	background: none;
+}
+#container ul.sortable {
+	width: 480px;
+	margin: auto;
+}
+.handle, .removeListItem {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#container ul li span.handle {
+	cursor: move;
+}
+#container form {
+	margin-bottom: 20px;	
+}
+li.disabled {
+	opacity: 0.5;
+}
+li.highlight {
+	background: #FEE25F;
+}
+a.removeListItem, a.removeListItem:link {
+	color: #A858A3;
+	display: none;
+	float: right;
+	text-decoration: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+a.removeListItem:hover {
+	text-decoration: underline;
+}
+.sortable input {
+	border: 0;
+	background: transparent;
+	font-family: "Tahoma";
+	font-size: 24px;
+	color: #1C94C4;
+	width: 385px;
+}
+#doClearAll {
+	display: none;
+}
